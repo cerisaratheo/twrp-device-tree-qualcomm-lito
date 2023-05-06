@@ -21,11 +21,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.lito
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.lito \
-    libgptutils \
-    libz \
-    libcutils
+# PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#     bootctrl.lito \
+#     libgptutils \
+#     libz \
+#     libcutils
+
+# Add the shared library module for boot control HAL
+PRODUCT_SHARED_LIBRARIES += libbootctrl.lito
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
