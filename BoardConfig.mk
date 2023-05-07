@@ -12,8 +12,21 @@ ALLOW_MISSING_DEPENDENCIES := true
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS +=
+
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    odm \
+    product \
+    recovery \
+    system \
+    system_ext \
+    vbmeta \
+    vbmeta_system \
+    vendor
+
 BOARD_USES_RECOVERY_AS_BOOT := true
+TARGET_NO_RECOVERY := true
 
 # Architecture
 TARGET_ARCH := arm64
