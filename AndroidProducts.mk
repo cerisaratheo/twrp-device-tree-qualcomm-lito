@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_lito.mk
+    $(LOCAL_DIR)/twrp_lito.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_lito-user \
-    omni_lito-userdebug \
-    omni_lito-eng
+    twrp_lito-user \
+    twrp_lito-userdebug \
+    twrp_lito-eng

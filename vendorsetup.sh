@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_lito-user
-add_lunch_combo omni_lito-userdebug
-add_lunch_combo omni_lito-eng
+add_lunch_combo twrp_lito-user
+add_lunch_combo twrp_lito-userdebug
+add_lunch_combo twrp_lito-eng
 

@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from lito device
 $(call inherit-product, device/qualcomm/lito/device.mk)
 
 PRODUCT_DEVICE := lito
-PRODUCT_NAME := omni_lito
+PRODUCT_NAME := twrp_lito
 PRODUCT_BRAND := qti
 PRODUCT_MODEL := Lito for arm64
 PRODUCT_MANUFACTURER := qualcomm
