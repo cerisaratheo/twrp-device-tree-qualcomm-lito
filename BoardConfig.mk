@@ -118,3 +118,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+DEVICE_RESOLUTION := 1080x2400                 # The Resolution of your Device
+TARGET_SCREEN_HEIGHT := 2400                    # The height
+TARGET_SCREEN_WIDTH := 1080
+TWRP_INCLUDE_LOGCAT := true                   # Include LogCat Binary
